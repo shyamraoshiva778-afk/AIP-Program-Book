@@ -1,0 +1,26 @@
+# AIP Module Book - Git Ignore
+
+# Exclude the entire plan folder (internal planning only)
+plan/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node modules (if any)
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
